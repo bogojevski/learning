@@ -18,7 +18,6 @@ function prost(n) {
     }
 }
 
-
 let i = 2
 while (i <= 100) {
     prost(i)
