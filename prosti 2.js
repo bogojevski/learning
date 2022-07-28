@@ -12,10 +12,15 @@ function prost(n) {
             i++
         }
     }
-    
+
     if (n == i) {
         print(n + " e prost")
     }
 }
 
-prost(n)
+
+let i = 2
+while (i <= 100) {
+    prost(i)
+    i++
+}
